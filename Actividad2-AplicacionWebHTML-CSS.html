@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body {
+            background-color: brown;
+            font-family: Arial;
+        }
+        
+        #contenedor {
+            margin: 150px auto;
+            width: 600px;
+        }
+        
+        table {
+            background-color: white;
+            text-align: center;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        tr {
+            border: solid 1px black;
+        }
+        
+        th,
+        td {
+            padding: 20px;
+        }
+        
+        thead {
+            background-color: darkslategray;
+            border-bottom: solid 2px darkgreen;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #ddd;
+        }
+        
+        tr:hover td {
+            background-color: #369681;
+            color: white;
+        }
+    </style>
+    <title>Horario</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00am-9:00am</td>
+                    <td rowspan="2">Leng y Aut I / Taller Invest II </td>
+                    <td>Taller Invest II</td>
+                    <td>Taller Invest II</td>
+                    <td></td>
+                    <td>Leng y Aut I</td>
+                </tr>
+                <tr>
+                    <td>9:00am-9:50am</td>
+                    <td></td>
+                    <td></td>
+                    <td>Leng y Aut I</td>
+                    <td>Leng y Aut I / Taller Invest II</td>
+                </tr>
+                <tr>
+                    <td>9:50am-10:10am</td>
+                    <td colspan="5">R E C E S O</td>
+                </tr>
+                <tr>
+                    <td>10:10am-11:00am</td>
+                    <td>Programacion Log. Funcional</td>
+                    <td>Programacion Log. Funcional</td>
+                    <td>Programacion Log. Funcional</td>
+                    <td>Programacion Log. Funcional</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11:00am-12:00am</td>
+                    <td rowspan="2">Apren. Máquina</td>
+                    <td>Apren. Máquina</td>
+                    <td>Apren. Máquina</td>
+                    <td>Apren. Máquina</td>
+                    <td>Apren. Máquina</td>
+                </tr>
+                <tr>
+                    <td>12:00am-13:00am</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
